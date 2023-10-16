@@ -1,4 +1,4 @@
-const car={
+        const car={
     name : "TOYOTA",
     model : 2000,
     color : "white",
@@ -18,15 +18,21 @@ console.log(car['model'])
 car.start()
 
 
-let person = {
+let person = {                              //let is not a proper way of declearing object
     first_name: "Yasir",
     last_name: "Arafat",
     Age: 24,
     designation: "Programmer",
 
     identity: function(){
-        console.log(this.first_name + " " + this.last_name + this.designation)
+        return this.first_name + " " + this.last_name + this.designation;    //have to return if any one wants to store this function's value
     }
-}
+};
 
-person.identity()
+
+console.log(person.first_name.length);
+
+const me = person.identity();
+console.log(me.length);
+
+
