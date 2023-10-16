@@ -10,3 +10,7 @@ console.log(fruits[fruits.length -1])  //priting last index of array
 // Loop
 
 const car = ["toyta", "nissan", "tata", "mahindra"]
+
+for( i=0; i<car.length; i++){
+    console.log(car[i]);
+}
