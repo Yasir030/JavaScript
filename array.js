@@ -24,3 +24,19 @@ for( i=0; i<car.length; i++){
  }
 
  phone.forEach(phoneFeature);
+
+
+ // object itself is array
+
+  const person = [];
+
+  person["first_name"]= "yasir";
+  person["last_name"]= "arafat";
+  person["age"] = 24;
+  person.length
+
+  console.log(person.length)  // length is zero because it is an object
+  console.log(person)
+
+  let number = [1,2,3] //this one is array
+  console.log(number)
