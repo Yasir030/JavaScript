@@ -16,3 +16,17 @@ const car={
 console.log(car.name)
 console.log(car['model'])
 car.start()
+
+
+let person = {
+    first_name: "Yasir",
+    last_name: "Arafat",
+    Age: 24,
+    designation: "Programmer",
+
+    identity: function(){
+        console.log(this.first_name + " " + this.last_name + this.designation)
+    }
+}
+
+person.identity()
