@@ -14,3 +14,13 @@ const car = ["toyta", "nissan", "tata", "mahindra"]
 for( i=0; i<car.length; i++){
     console.log(car[i]);
 }
+ // foreach
+
+ const phone = ["iphone", "samsung","oppo","oneplus"];
+
+ function phoneFeature(value){
+    console.log("the phone name is", value);
+
+ }
+
+ phone.forEach(phoneFeature);
